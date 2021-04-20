@@ -1,0 +1,41 @@
+.poster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.poster img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 270px;
+}
+
+.poster {
+  position: relative;
+  width: 180px;
+  height: 270px;
+}
+
+.poster .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 270px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+  background-color: rgba(0,0,0,.7);
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.poster .overlay:hover {
+  opacity: 1;
+}

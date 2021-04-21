@@ -9,7 +9,7 @@ This application shows the top 100 movies at any given time based on TMDB
 3. Install NodeJS
 4. Navigate to the project folder in your favorite terminal
 5. Run `npm install; npm start`
-6. Visit `http://localhost:3000` in your favorite browser
+6. Visit `http://localhost:5000` in your favorite browser
 
 ## Acknowledgements
 
